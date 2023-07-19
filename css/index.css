@@ -339,7 +339,7 @@ main {
 .section4 {
   width: 100%;
   display: flex;
-  background-color: antiquewhite;
+  background-color: #fffffff;
   align-items: center;
   padding-left: 14rem;
 }
@@ -729,7 +729,6 @@ main {
     width: 100%;
     height: auto;
     margin: 0;
-    margin-top: 6rem;
   }
   .section1_products-image-one h3 {
     padding-bottom: 2rem;
@@ -795,6 +794,7 @@ main {
   }
   .section3_conten-even h1 {
     width: 100%;
+    font-size: 3rem;
   }
   .section3_conten-calendar {
     width: 100%;
@@ -810,6 +810,7 @@ main {
     padding-left: 0;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 2rem;
   }
   .section3_conten-hotel i {
     padding-right: 0;
@@ -844,7 +845,8 @@ main {
   }
   .section5_member h1 {
     width: 100%;
-    padding-left: 2rem;
+    padding-left: 1rem;
+    font-size: 2.5rem;
   }
   .section5_member-input {
     width: 80%;
@@ -870,6 +872,9 @@ main {
   }
   .section6_were {
     width: 100%;
+  }
+  .section6_were h1 {
+    font-size: 3rem;
   }
   .section6_layout {
     width: 100%;
@@ -908,6 +913,13 @@ main {
   .section7_wrapper .section7_form-item {
     height: auto;
     width: 100%;
+    padding-left: 2rem;
+  }
+  .section7_wrapper .section7_form-item .phone i {
+    font-size: 2rem;
+  }
+  .section7_wrapper .section7_form-item .phone a {
+    font-size: 2rem;
   }
   .section7_wrapper .section7_form-item .vist {
     padding-bottom: 2rem;
@@ -951,5 +963,8 @@ main {
 @media only screen and ((min-width: 768px) and (max-width: 1600px)) {
   #menu {
     display: none;
+  }
+  .section1 {
+    overflow-x: hidden;
   }
 }/*# sourceMappingURL=index.css.map */
