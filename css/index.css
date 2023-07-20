@@ -1183,4 +1183,16 @@ a {
   .footer_logo {
     width: 30%;
   }
+}
+@media only screen and ((min-width: 768px) and (max-width: 1366px)) {
+  .section7 {
+    width: 100%;
+  }
+  .section7_wrapper {
+    width: 100%;
+  }
+  .section7_wrapper .section7_form {
+    width: 100%;
+    padding-left: 14%;
+  }
 }/*# sourceMappingURL=index.css.map */
