@@ -618,6 +618,26 @@ main {
   padding: 25px 0 0 50px;
 }
 
+a:hover,
+i:hover,
+span:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.repuclic:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 767.98px) {
   html {
     width: 100%;
@@ -999,6 +1019,7 @@ main {
   }
   .header .swan {
     width: 100%;
+    position: relative;
   }
   .header .swan .shape {
     position: absolute;
@@ -1009,7 +1030,7 @@ main {
     bottom: 20%;
   }
   .header .swan .container_paging {
-    width: 50%;
+    width: 45%;
     /* margin-left: 0; */
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -1062,19 +1083,19 @@ main {
     margin: 0;
     margin-left: 2rem;
   }
-  main nop .section2 {
+  main .section2 {
     width: 100%;
     height: auto;
   }
-  main nop .section2_conten {
+  main .section2_conten {
     width: 100%;
     margin-left: 10%;
     height: auto;
   }
-  main nop .section2_conten p {
+  main .section2_conten p {
     margin-bottom: 2rem;
   }
-  main nop .section2 img {
+  main .section2 img {
     width: 50%;
     height: auto;
   }
