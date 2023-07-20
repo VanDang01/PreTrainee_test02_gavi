@@ -1129,10 +1129,11 @@ a {
     font-size: 1.5rem;
   }
   main .section3_conten-hotel {
+    align-items: center;
     width: 35%;
     padding-left: 3%;
     /* font-size: 1rem; */
-    margin-top: 10%;
+    margin-top: 0;
   }
   main .section3_conten-hotel-item {
     width: 100%;
