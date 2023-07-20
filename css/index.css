@@ -813,8 +813,10 @@ a {
     width: 100%;
   }
   .section3 .directional {
-    width: 80%;
-    top: 200px;
+    width: 100%;
+    top: 140px;
+    font-size: 2rem;
+    margin-left: 0;
   }
   .section3_conten {
     width: 100%;
